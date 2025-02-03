@@ -393,6 +393,7 @@ a:hover,button:hover{
     width: 23%;
     margin: 0 1%;
     background: white;
+    min-height: 100%;
     height: fit-content;
     -webkit-border-radius: 2%;
     -moz-border-radius: 2%;
@@ -409,8 +410,10 @@ color: black;
 }
 
 .movieDiv img{
+    min-height: 70%;
     height: 70%;
-    object-fit: cover;
+    max-height: 70%;
+    object-fit: fill;
     object-position: center;
 }
 

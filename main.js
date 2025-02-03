@@ -4,6 +4,7 @@ function SubmiteuOnegocio(event) {
   .preventDefault();
   console.log(event.target.Buscando.value);
   displayMovieInfo(event.target.Buscando.value);
+  document.querySelector("#sc1").innerHTML="";
 }
 
 function displayMovieInfo(filme) {
