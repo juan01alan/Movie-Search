@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
     <meta name="description" content="Netflix Clone Built Using React" />
     <meta name="author" content="" />
     <meta name="robots" content="index, follow"> 
-    <link rel="icon" href="movie-recorder-svgrepo-com.svg" type="image/x-icon">
+    <link rel="icon" href="movie-svgrepo-com.svg" type="image/x-icon">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="animations.css">
     <link rel="stylesheet" href="resetNormalize.css">
@@ -19,83 +19,24 @@
   </head>
 
   <body>
-    <style>
-      *{
-    color: white;
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-    transition: all .5s ease;
-}
-body{
-    transition: all 0.4s linear;
-}
-
-a{
-  text-decoration: none;
-}
-
-html{
-  scroll-behavior: smooth;
-}
-
-img{
-  width: 100%;
-  height: auto;
-  object-position: center center;
-  object-fit: contain;
-}
-video{  
-  object-fit: contain;
-  width: 100%;
-  height: auto;
-  object-position: center center;
-}
-#root{
-  width: 100%;
-  height: 100%;
-}
-div{
-  max-width: 100vw;
-}
-.img{  
-  overflow: hidden;
-  display: grid;
-  place-content: center;
-  width: 100%;
-  height: fit-content;
-}
-.video{  
-  overflow: hidden;
-  display: grid;
-  place-content: center;
-  width: 100%;
-  height: fit-content;
-}
-.Tcenter{
-  display: grid;
-  place-content: center;
-}
-</style>
     <script src="main.js"></script>
     <div class="center">
         
 <head>
-    <div class="grid grid1r grid3c" style="border-bottom: 1px solid white;"">
+    <div class="grid grid1r grid3c c1">
 <div class="iten iten1cs iten1ce iten1rs iten1re">
-<h1 style="text-align: center; color: goldenrod;">Juan Alan</h1>
+<h1 >Juan Alan</h1>
 </div>
 <div class="iten iten2cs iten4ce iten1rs iten1re InputL">
-    <h3 style="text-align: center;">Movie Search</h3>
+    <h3 >Movie Search</h3>
 </div>
     </div>
 </head>
     <main>
 <div class="grid PrinDiv" id="princDiv">
-        <div class="movieSearch iten iten1rs iten1re iten1cs iten1ce" style="align-items: center;align-content: center; width: 80%; margin: 2% 10%; padding: 1%;">
-            <form style="align-items: center; width: 100%;" action="#" name="Main" method="get" onsubmit="SubmiteuOnegocio(event)">
-                <input style="color: black;padding: 1%;" type="text" name="Buscando" id="Titulo">
+        <div class="movieSearch iten iten1rs iten1re iten1cs iten1ce">
+            <form action="#" name="Main" method="get" onsubmit="SubmiteuOnegocio(event)">
+                <input type="text" name="Buscando" id="Titulo">
                 <input id="hover" type="submit" value="Enviar">
             </form>
         </div>

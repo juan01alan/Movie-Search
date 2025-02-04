@@ -345,8 +345,14 @@ a:hover,button:hover{
     grid-column-end: 10;
 }
 .movieSearch{
+    align-items: center;align-content: center; width: 80%; margin: 2% 10%; padding: 1%;
     height: fit-content;
 }
+
+.movieSearch form{
+    align-items: center; width: 100%;
+}
+
 
 .PrinDiv{
     grid-template-columns: 1fr;
@@ -355,7 +361,7 @@ a:hover,button:hover{
 
 .movieSearch input:nth-child(1){
     width: 80%;
-    padding: 2%;
+    padding: 2%;color: black;padding: 1%;
 }
 
 .MoviesDiv{
@@ -401,6 +407,74 @@ a:hover,button:hover{
     -o-border-radius: 2%;
 }
 
+
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    transition: all .5s ease;
+}
+body{
+    transition: all 0.4s linear;
+}
+
+a{
+  text-decoration: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  object-position: center center;
+  object-fit: contain;
+}
+video{  
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  object-position: center center;
+}
+#root{
+  width: 100%;
+  height: 100%;
+}
+div{
+  max-width: 100vw;
+}
+.img{  
+  overflow: hidden;
+  display: grid;
+  place-content: center;
+  width: 100%;
+  height: fit-content;
+}
+.video{  
+  overflow: hidden;
+  display: grid;
+  place-content: center;
+  width: 100%;
+  height: fit-content;
+}
+.Tcenter{
+  display: grid;
+  place-content: center;
+}
+.c1{
+    border-bottom: 1px solid white; 
+}
+.c1 h1{
+    text-align: center; color: goldenrod;
+}
+
+.c1 h3{
+    text-align: center;
+}
 .movieDiv h1{
 color: black;
 }
